@@ -4,7 +4,7 @@ class Car:
         self.make = make
         self.model = model
 
-#Object: An object is an instance of a class. It is a concrete entity created based on the class, and it can have its own unique attributes and behaviors.
+#Object: An object is an instance(you can say that it is an entity made using the class blueprint) of a class. It is a concrete entity created based on the class, and it can have its own unique attributes and behaviors.
 car1 = Car("Tesla", "Model-S")
 car2 = Car("BMW", "Series-7")
 
