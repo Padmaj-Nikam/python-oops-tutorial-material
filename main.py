@@ -10,3 +10,4 @@ car2 = Car("BMW", "Series-7")
 
 #Printing a particular attribute
 print(car1.model, car2.model)
+
