@@ -14,6 +14,11 @@ class Circle:
         return pi * self.radius * self.radius
 
 
+class Sphere:
+    def __init__(self, radius):
+        self.radius = radius
+
+
 radi1 = Circle(float(input("Enter Radius here: ")))
 
 print(radi1.perimeter())
