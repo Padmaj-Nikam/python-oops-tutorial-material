@@ -8,12 +8,13 @@ class Circle:
         self.radius = radius
 
     def perimeter(self):
-        print(2 * 3.14 * self.radius)
+        return 2 * 3.14 * self.radius
 
     def area(self):
-        return int(pi) * int(self.radius) * int(self.radius)
+        return pi * self.radius * self.radius
 
 
-radi1 = Circle(input("Enter Radius here: "))
+radi1 = Circle(float(input("Enter Radius here: ")))
 
-radi1.perimeter()
+print(radi1.perimeter())
+print(radi1.area())
