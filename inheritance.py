@@ -1,3 +1,4 @@
+# Super Class from which the lower classes take in the key attributes.
 class Vehicle:
     def __init__(self, name, wheels):
         self.name = name
@@ -7,6 +8,7 @@ class Vehicle:
         print(f"Hey I am a {self.name} and I have {self.wheels} wheels.")
 
 
+# Lower class for two wheelers. Using the super class just requires us to input the class name while declaring the lower classes.
 class two_wheelers(Vehicle):
     def __init__(self, name, wheels, colour):
         super().__init__(name, wheels)
@@ -16,6 +18,7 @@ class two_wheelers(Vehicle):
         return self.colour
 
 
+# Lower class for four wheelers.
 class four_wheelers(Vehicle):
     def __init__(self, name, wheels, colour, horse):
         super().__init__(name, wheels)
